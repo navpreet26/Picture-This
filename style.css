@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
-html,
-body {
+html, body {
   margin: 0;
   border: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .header {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
-  background-color: cadetblue;
+  background-color: #FFD580;
 }
 
 .title {
   padding: 50px 25px;
   text-align: center;
+  background-color: #FFD580;
 }
 
 h1 {
@@ -31,10 +31,22 @@ h4 {
 
 img {
   display: block;
+  width: 100%;
+}
+
+.square {
+  display: none;
 }
 
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .square {
+    grid-column: 2;
+    display: block;
+  }
+  .landscape {
+    display: none;
   }
 }
