@@ -10,13 +10,13 @@ html, body {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
-  background-color: #FFD580;
+  background-color: #FED100;
 }
 
 .title {
   padding: 50px 25px;
   text-align: center;
-  background-color: #FFD580;
+  background-color: #FED100;
 }
 
 h1 {
